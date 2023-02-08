@@ -1,4 +1,4 @@
-package ru.maxima.springmvc.models;
+package ru.maxima.springmvc.model;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
@@ -8,10 +8,10 @@ public class Person {
 
     private int id;
     @NotEmpty(message = "Имя не может быть пустым")
-    @Size(min = 5,max = 50,message = "Фамилия, имя и отчество должны быть не менее 5 символов и не более 50 символов")
+    @Size(min = 2,max = 50,message = "Фамилия, имя и отчество должны быть не менее 5 символов и не более 50 символов")
     private String fullName;
-    @NotEmpty(message = "Год рождения не может быть пустым")
-    @Min(value = 1940,message = "Год рождения должен быть больше 1940 года")
+
+    @Min(value = 1930,message = "Год рождения должен быть больше 1930 года")
     private int yearOfBirth;
 
     public Person() {
