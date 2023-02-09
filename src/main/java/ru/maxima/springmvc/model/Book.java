@@ -68,5 +68,12 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
     }
 
-
+    @Override
+    public String toString() {
+        return  "id=" + id +
+                ", personId=" + personId +
+                ", titleOfTheBook='" + titleOfTheBook + '\'' +
+                ", author='" + author + '\'' +
+                ", yearOfPublication=" + yearOfPublication ;
+    }
 }

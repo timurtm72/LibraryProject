@@ -9,37 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395d7390-1023-4651-9b6a-6e16c8eb3ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/config/SpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/controller/BooksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/controller/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/edit_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/index_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/new_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/show_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/edit_person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index_person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/new_person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show_person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="395d7390-1023-4651-9b6a-6e16c8eb3ac8" name="Changes" comment="Не получается с страницей книги">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/controller/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/springmvc/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/index_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/index_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/show_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/books/show_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/index_person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/people/show_person.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,12 +211,29 @@
       <workItem from="1675753677321" duration="12862000" />
       <workItem from="1675784660992" duration="12000" />
       <workItem from="1675843150684" duration="6115000" />
-      <workItem from="1675852170329" duration="5927000" />
+      <workItem from="1675852170329" duration="8698000" />
+      <workItem from="1675862376735" duration="5196000" />
+      <workItem from="1675870641581" duration="4765000" />
+      <workItem from="1675879347847" duration="168000" />
+      <workItem from="1675925559203" duration="7739000" />
+      <workItem from="1675938555331" duration="4795000" />
     </task>
+    <task id="LOCAL-00001" summary="Не получается с страницей книги">
+      <created>1675858229638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675858229638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Не получается с страницей книги" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не получается с страницей книги" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
