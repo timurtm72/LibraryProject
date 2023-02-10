@@ -71,15 +71,13 @@ public class BooksController {
     @PostMapping("/select")
     public String addBookInUser(@RequestParam Integer id, @RequestParam Integer book_id, Model model) {
         bookDAO.addBookInUser(id, book_id);
-        seachAndAdd(book_id,model);
-        return "books/show_book";
+        return  "redirect:/books/" + book_id;
     }
 
     @PostMapping("/free")
     public String freeBook(@RequestParam Integer book_id, @RequestParam Integer person_id, Model model) {
         bookDAO.freeBook(book_id);
-        seachAndAdd(book_id,model);
-        return "books/show_book";
+        return "redirect:/books/" + book_id;
     }
 
     @DeleteMapping("/{id}")
